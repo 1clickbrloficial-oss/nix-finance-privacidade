@@ -22,11 +22,11 @@
 
 
 <h1>Política de Privacidade — Nix Finance</h1>
-<p class="updated">Última atualização: 08 de 09 de 2026</p>
+<p class="updated">Última atualização: 31 de outubro de 2026</p>
 
 <p>Esta Política de Privacidade descreve como o aplicativo <strong>Nix Finance</strong>
 ("aplicativo", "nós") trata as informações dos usuários. O Nix Finance é um gerenciador
-de finanças pessoais desenvolvido por <strong>Everton Izaguirres Parisi</strong>.
+de finanças pessoais desenvolvida pela <strong>1Clik</strong>.
 Ao usar o aplicativo, você concorda com as práticas descritas abaixo.</p>
 
 <div class="note">
@@ -45,8 +45,8 @@ nunca são transmitidas para nós nem para terceiros.</p>
   <li>Nome de usuário e foto de perfil (opcionais);</li>
   <li>Salário ou renda informada (opcional);</li>
   <li>Transações, gastos, contas, orçamentos e metas que você cadastra;</li>
-  <li>Imagens de comprovantes que você anexa;</li>
-  <li>Configurações do aplicativo, incluindo a senha de acesso, quando ativada.</li>
+  <li>Comprovantes que você anexa (imagens ou PDF);</li>
+  <li>Configurações do aplicativo, incluindo a senha de acesso e a pergunta de segurança, quando ativadas.</li>
 </ul>
 <p>Não temos acesso a nenhuma dessas informações.</p>
 
@@ -54,11 +54,19 @@ nunca são transmitidas para nós nem para terceiros.</p>
 <ul>
   <li><strong>Câmera:</strong> usada apenas quando você opta por fotografar um comprovante.
   A imagem é processada e armazenada no próprio dispositivo.</li>
-  <li><strong>Acesso a imagens / fotos:</strong> usada apenas para você anexar comprovantes
-  já salvos na galeria do aparelho.</li>
-  <li><strong>Internet:</strong> utilizada exclusivamente para a comunicação com o serviço
-  de pagamentos do Google Play, necessária para processar e validar assinaturas. Nenhum
-  dado financeiro seu trafega por essa conexão.</li>
+  <li><strong>Seleção de arquivos:</strong> para anexar comprovantes já salvos (imagens ou PDF),
+  o aplicativo usa o seletor de arquivos do próprio Android. Ele não solicita permissão de acesso
+  à sua galeria e só acessa o arquivo que você escolher.</li>
+  <li><strong>Notificações:</strong> usadas para lembrar de contas a vencer, renovações de
+  assinaturas e orçamentos próximos do limite. Os alertas são gerados no próprio dispositivo.</li>
+  <li><strong>Biometria / bloqueio do aparelho:</strong> opcional, usada para desbloquear o
+  aplicativo ou recuperar a senha com a digital ou o PIN do celular. O Nix Finance não tem acesso
+  aos seus dados biométricos, pois a verificação é feita pelo sistema Android.</li>
+  <li><strong>Internet:</strong> utilizada para a comunicação com o Google Play Billing,
+  necessária para processar e validar assinaturas. Bibliotecas do Google usadas no aplicativo
+  (como o reconhecimento de texto ML Kit) podem enviar ao Google informações técnicas anônimas
+  de diagnóstico e desempenho. Nenhum dado financeiro, comprovante ou informação que você
+  cadastra trafega por essa conexão.</li>
 </ul>
 
 <h2>3. Reconhecimento de texto (OCR) e categorização automática</h2>
@@ -87,15 +95,17 @@ informação, não há dados a serem compartilhados.</p>
 publicidade ou de rastreamento para fins de marketing.</p>
 
 <h2>7. Backup dos seus dados</h2>
-<p>O aplicativo permite que você gere um arquivo de backup dos seus dados. Esse arquivo é
-criado no seu dispositivo e fica sob o seu controle: você decide onde guardá-lo. Nós não
-recebemos nem hospedamos cópias desse arquivo.</p>
+<p>O aplicativo permite que você gere um arquivo de backup dos seus dados, que pode ser
+protegido por senha. Esse arquivo é criado no seu dispositivo e fica sob o seu controle:
+você decide onde guardá-lo. Nós não recebemos nem hospedamos cópias desse arquivo.</p>
 
 <h2>8. Segurança</h2>
-<p>Os dados são armazenados de forma criptografada no dispositivo, e o aplicativo oferece a
-opção de proteger o acesso por senha. Como as informações residem exclusivamente no seu
-aparelho, a segurança também depende das proteções do próprio dispositivo, como bloqueio
-de tela e criptografia do sistema operacional.</p>
+<p>Seus dados financeiros são armazenados em um banco de dados criptografado (AES-256), cuja
+chave é protegida pelo Android Keystore. Os comprovantes ficam no armazenamento interno do
+aplicativo, inacessível a outros apps. A senha de acesso é guardada apenas em formato
+criptografado (hash), e a pergunta de segurança opcional também fica somente no aparelho.
+O arquivo de backup pode ser protegido por senha. A segurança também depende das proteções
+do próprio dispositivo, como bloqueio de tela e criptografia do sistema operacional.</p>
 
 <h2>9. Crianças e adolescentes</h2>
 <p>O Nix Finance não é direcionado a crianças. Como o aplicativo não coleta nenhum dado
